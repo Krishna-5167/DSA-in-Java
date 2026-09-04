@@ -25,6 +25,7 @@ public class Input{
         // long num3 = sc.nextLong();
         // System.out.println(num);
 
+        sc.close();
 
     }
 }
