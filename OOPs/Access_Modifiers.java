@@ -6,6 +6,10 @@ class bankAccount{
         password = pwd;
     }
 
+    public String getPassword(){
+        return password;
+    }
+
 
 }
 
@@ -18,6 +22,9 @@ public class Access_Modifiers {
         // myAcc.setPassword = "abcdef";        // This line is incorrect. It should be myAcc.setPassword("abcdef");
 
         myAcc.setPassword("abcdef");
+
+        
+        System.out.println(myAcc.getPassword());
 
     }
 }
