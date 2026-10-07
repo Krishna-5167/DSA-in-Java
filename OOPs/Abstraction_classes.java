@@ -28,7 +28,8 @@ class Mustang extends Horse{
 public class Abstraction_classes {
 
     public static void main(String[] args) {
-        Mustang m = new Mustang();
+        // Mustang m = new Mustang();
+        new Mustang();
     }
     
 }
