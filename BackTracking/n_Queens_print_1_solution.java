@@ -40,7 +40,7 @@ public class n_Queens_print_1_solution {
                 if(nQueens(board, row+1)){
                     return true;
                 }
-                board[row][j] = 'X';
+                board[row][j] = 'X';  // bactraking step
 
             }
 
@@ -54,8 +54,9 @@ public class n_Queens_print_1_solution {
             for(int j=0; j<board.length; j++){
                 System.out.print(board[i][j]+" ");
             }
+            System.out.println();
         }
-        System.out.println();
+        
 
     }
 
